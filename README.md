@@ -19,6 +19,12 @@ To do this, while on the website press F12 to open your web browser's console an
 Firefox example:
 ![Screenshot](Firefoxlocalstorage.png)
 
+# To Do
+
+Change UI of chat screen
+Change UI of login screen
+Add Sign Up and Sign Out functionality
+
 # Tools used
 ChatEngine: https://chatengine.io/
 
