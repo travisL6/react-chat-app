@@ -17,4 +17,4 @@ As there is no log out feature yet, you will have to remove the local storage in
 To do this, while on the website press F12 to open your web browser's console and navigate to storage and clear it.
 
 Firefox example:
-![alt text]([http://url/to/img.png](https://user-images.githubusercontent.com/56279081/212358552-f4744a9d-42fb-4d63-bf56-01afe9f7c501.png))
+![Screenshot](Firefoxlocalstorage.png)
