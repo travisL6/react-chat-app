@@ -15,3 +15,5 @@ willy
 As there is no log out feature yet, you will have to remove the local storage in order to simulate logging out so you can return to the log in screen.
 
 To do this, while on the website press F12 to open your web browser's console and navigate to storage and clear it.
+
+https://user-images.githubusercontent.com/56279081/212358552-f4744a9d-42fb-4d63-bf56-01afe9f7c501.png
