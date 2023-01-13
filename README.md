@@ -22,7 +22,9 @@ Firefox example:
 # To Do
 
 Change UI of chat screen
+
 Change UI of login screen
+
 Add Sign Up and Sign Out functionality
 
 # Tools used
