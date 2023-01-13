@@ -21,6 +21,9 @@ Firefox example:
 
 # Tools used
 ChatEngine: https://chatengine.io/
+
 Axios: https://axios-http.com/
+
 Ant Design icons: https://ant.design/
+
 Netlify: https://www.netlify.com/
