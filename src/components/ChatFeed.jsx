@@ -2,7 +2,6 @@ import MessageForm from "./MessageForm";
 import MyMessage from "./MyMessage";
 import TheirMessage from "./TheirMessage";
 
-
 const ChatFeed = (props) => {
 
     const { chats, activeChat, userName, messages } = props;
@@ -25,11 +24,11 @@ const ChatFeed = (props) => {
         const keys = Object.keys(messages);
         return keys.map((key, index) => {
             const message = messages[key];
-            const lastMessageKey = index == 0 ? null : keys[index - 1];
-            const isMyMessage = userName == message.sender.username;
+            const lastMessageKey = index === 0 ? null : keys[index - 1];
+            const isMyMessage = userName === message.sender.username;
 
             return (
-                <div key={'msg_${index}'} style={{width: '100%'}}>
+                <div key={index} style={{width: '100%'}}>
                     <div className="message-block">
                         {
                             isMyMessage
@@ -45,7 +44,7 @@ const ChatFeed = (props) => {
         })
     }
 
-    if(!chat) return 'Loading...';
+    if(!chat) return 'Create or join a new chat!';
 
     return (
         <div className="chat-feed">
@@ -61,6 +60,8 @@ const ChatFeed = (props) => {
                 <MessageForm {...props} chatId={activeChat} />
             </div>
         </div>
+        
+        
     );
 }
 
