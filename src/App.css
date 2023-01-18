@@ -245,6 +245,17 @@
     margin-bottom: 25px;
   }
   
+  #avatar-label {
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .label {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+
   .form {
     width: 400px;
   }
@@ -252,11 +263,11 @@
   .title {
     text-align: center;
     color: white;
-    margin-bottom: 30px;
     width: 100%;
-    font-size: 2.3em;;
+    margin-bottom: 30px;
+    font-size: 2.3em;
   }
-  
+
   .button {
     border-radius: 4px;
     border: none;
@@ -311,29 +322,8 @@
     width: 90%;
   }
 
-  #back-button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.4s;
-  }
-
-  #back-button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    left: -20px;
-    transition: 0.5s;
-  }
-  
-  #back-button:hover span {
-    padding-left: 25px;
-  }
-
-  #back-button:hover span:after {
-    opacity: 1;
-    left: 0;
+  #back-button:hover {
+    color: red;
   }
   
   #logout-button {
