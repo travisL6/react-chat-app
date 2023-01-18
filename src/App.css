@@ -272,6 +272,7 @@
     margin: 5px;
     width: 90%;
   }
+
   .button span {
     cursor: pointer;
     display: inline-block;
@@ -292,6 +293,47 @@
   .button:hover span:after {
     opacity: 1;
     right: 0;
+  }
+
+  #back-button {
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+    width: 90%;
+  }
+
+  #back-button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+  }
+
+  #back-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -20px;
+    transition: 0.5s;
+  }
+  
+  #back-button:hover span {
+    padding-left: 25px;
+  }
+
+  #back-button:hover span:after {
+    opacity: 1;
+    left: 0;
   }
   
   #logout-button {
@@ -322,4 +364,11 @@
 
   .form i:hover {
     color: #3b2a50;
+  }
+
+  @media screen and (max-width: 574px) {
+    .message-form-container {
+      position: relative;
+      margin-top: 28em;
+    }
   }
