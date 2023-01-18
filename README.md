@@ -10,7 +10,7 @@ johndoe
 willy
 123
 
-## Trying other users
+## Trying other users - THERE IS NOW A LOG OUT FEATURE --IGNORE
 
 As there is no log out feature yet, you will have to remove the local storage in order to simulate logging out so you can return to the log in screen.
 
@@ -25,7 +25,8 @@ Change UI of chat screen
 
 Change UI of login screen
 
-Add Sign Up and Sign Out functionality
+Sign Out functionality - DONE
+Sign Up functionality
 
 # Tools used
 ChatEngine: https://chatengine.io/
