@@ -1,23 +1,7 @@
 # Getting Started
+Sign up to get started! As I am using the free version of ChatEngine, the app is limited to 10 users. If there is an error creating a profile then that might be the reason why.
 
-## Hard-coded usernames and passwords - Plan to add Log out and Sign up function later
-admin
-123
-
-johndoe
-123
-
-willy
-123
-
-## Trying other users - THERE IS NOW A LOG OUT FEATURE --IGNORE
-
-As there is no log out feature yet, you will have to remove the local storage in order to simulate logging out so you can return to the log in screen.
-
-To do this, while on the website press F12 to open your web browser's console and navigate to storage and clear it.
-
-Firefox example:
-![Screenshot](Firefoxlocalstorage.png)
+The avatar function doesn't work for now
 
 # To Do
 
@@ -25,8 +9,10 @@ Change UI of chat screen
 
 Change UI of login screen
 
+Make better validation for user sign up
+
 Sign Out functionality - DONE
-Sign Up functionality
+Sign Up functionality - DONE
 
 # Tools used
 ChatEngine: https://chatengine.io/
@@ -34,5 +20,7 @@ ChatEngine: https://chatengine.io/
 Axios: https://axios-http.com/
 
 Ant Design icons: https://ant.design/
+
+Fontawesome Icons: https://fontawesome.com/icons
 
 Netlify: https://www.netlify.com/
