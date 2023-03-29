@@ -1,3 +1,5 @@
+I was using the free version of ChatEngine which expired. Website will no longer function as intended.
+
 # Getting Started
 Sign up to get started!
 
